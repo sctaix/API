@@ -36,12 +36,13 @@
   <li>settlePrice: 결제금액</li>
   <li>deliveryType: 배송타입</li>
   <li>deliveryCharge: 배송비</li>
-  <li>invoiceCompanySno: 배송사코드 (사용중인 택배사만 노출)</li>
+  <li>invoiceCompanySno: 배송사코드</li>
 	<ul>
 		<li>12: 한진택배</li>
 		<li>15: CJ대한통운</li>
 		<li>21: KG로지스</li>
 	</ul>
+  <li>invoiceCompanyNm: 배송사명</li>
   <li>invoiceNo: 송장번호</li>
   <li>orderStatus: 주문상태</li>
 	<ul>
