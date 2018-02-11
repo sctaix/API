@@ -1,7 +1,7 @@
 # 주문API
 
 # Request
-<p>URL: http://api.petsdesign.co.kr/{주문번호}[/{OA타입}]</p>
+<p>URL: http://api.petsdesign.co.kr/order/{주문번호}[/{OA타입}]</p>
 <p>Require header: pd_key (해당키는 펫츠디자인 개발팀에 발급요청 하시기바랍니다. dev@petsdesign.co.kr)</p>
 
 <p>* {주문번호}: 펫투비 주문번호 또는 OA주문번호</p>
@@ -102,3 +102,7 @@
 		-H 'pd_key: {발급받은 API key}'
 	</code>
 </pre>
+
+# 상품조회API
+# Request
+<p>URL: http://api.petsdesign.co.kr/goods[/{상품번호}]</p>
