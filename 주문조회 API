@@ -1,4 +1,4 @@
-# 주문API
+# 주문조회 API
 
 # Request
 <p>URL: http://api.petsdesign.co.kr/order/{주문번호}[/{OA타입}]</p>
