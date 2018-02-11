@@ -1,6 +1,6 @@
 # 주문조회 API
 
-# Request
+# Request (GET)
 <p>URL: http://api.petsdesign.co.kr/order/{주문번호}[/{OA타입}]</p>
 <p>Require header: pd_key (해당키는 펫츠디자인 개발팀에 발급요청 하시기바랍니다. dev@petsdesign.co.kr)</p>
 
@@ -17,7 +17,7 @@
 	</ul>
 </p>
 
-# Response
+# Response (JSON)
 <ul>
   <li>orderNo: 주문번호</li>
   <li>oaType: OA타입</li>
