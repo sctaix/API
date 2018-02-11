@@ -49,8 +49,7 @@
 		<li>0: 주문접수</li>
 		<li>1: 결제완료</li>
 		<li>2: 상품준비중</li>
-		<li>3: 배송중</li>
-		<li>4: 배송완료</li>
+		<li>3: 출고완료</li>
 	</ul>
   <li>orderClaimStatus: 주문클레임상태</li>
 	<ul>
