@@ -4,7 +4,7 @@
 <p>URL: http://api.petsdesign.co.kr/goods/{상품번호}[/{페이지번호}]</p>
 <p>Require header: pd_key (해당키는 펫츠디자인 개발팀에 발급요청 하시기바랍니다. dev@petsdesign.co.kr)</p>
 
-<p>* [/{상품번호}]: 펫투비 상품번호</p>
+<p>* {상품번호}: 펫투비 상품번호</p>
 <p>* 전체상품 조회시 {상품번호} = "all" ex) http://api.petsdesign.co.kr/goods/all[/{페이지번호}]</p>
 <p>* 전체상품 조회시 페이징 처리가 되며, 한 페이지당 50개의 상품이 조회됩니다.</p>
 
